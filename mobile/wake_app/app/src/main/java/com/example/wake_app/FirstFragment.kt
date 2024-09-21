@@ -32,8 +32,16 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonFirst.setOnClickListener {
+        binding.buttonProfile.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+        }
+
+        binding.buttonDevices.setOnClickListener {
+            findNavController().navigate(R.id.action_FirstFragment_to_fragment_list_devices)
+        }
+
+        binding.buttonNewAlarm.setOnClickListener {
+            findNavController().navigate(R.id.action_FirstFragment_to_fragment_creat_edit_alarm)
         }
     }
 

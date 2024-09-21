@@ -14,6 +14,12 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_fragment_list_devices"
+            app:destination="@id/fragment_list_devices" />
+        <action
+            android:id="@+id/action_FirstFragment_to_fragment_creat_edit_alarm"
+            app:destination="@id/fragment_creat_edit_alarm" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -23,6 +29,36 @@
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_add_device"
+        android:name="com.example.wake_app.fragment_add_device"
+        android:label="fragment_add_device"
+        tools:layout="@layout/fragment_add_device" >
+        <action
+            android:id="@+id/action_fragment_add_device_to_fragment_list_devices"
+            app:destination="@id/fragment_list_devices" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_list_devices"
+        android:name="com.example.wake_app.fragment_list_devices"
+        android:label="fragment_list_devices"
+        tools:layout="@layout/fragment_list_devices" >
+        <action
+            android:id="@+id/action_fragment_list_devices_to_fragment_add_device"
+            app:destination="@id/fragment_add_device" />
+        <action
+            android:id="@+id/action_fragment_list_devices_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_creat_edit_alarm"
+        android:name="com.example.wake_app.fragment_creat_edit_alarm"
+        android:label="fragment_creat_edit_alarm" >
+        <action
+            android:id="@+id/action_fragment_creat_edit_alarm_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>
