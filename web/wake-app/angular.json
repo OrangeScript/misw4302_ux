@@ -3,9 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "wake_app": {
+    "wake-app": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/wake_app",
+            "outputPath": "dist/wake-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -27,6 +37,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -64,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "wake_app:build:production"
+              "buildTarget": "wake-app:build:production"
             },
             "development": {
-              "buildTarget": "wake_app:build:development"
+              "buildTarget": "wake-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,6 +101,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -99,6 +111,6 @@
     }
   },
   "cli": {
-    "analytics": "fee0a485-126f-44a9-bbab-f01dfe46dde4"
+    "analytics": "a21566f1-b0a1-4237-be6b-7499e2498740"
   }
 }

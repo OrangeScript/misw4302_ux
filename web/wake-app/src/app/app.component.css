@@ -1,0 +1,11 @@
+.mat-mdc-unelevated-button.qr-button {
+    background-color: #28A745;
+    color: black;
+    margin: 4px 4px 4px 4px;
+}
+
+.mat-mdc-unelevated-button.log-out-button {
+    background-color: #DC3545;
+    color: white;
+    margin: 4px 4px 4px 4px;
+}
