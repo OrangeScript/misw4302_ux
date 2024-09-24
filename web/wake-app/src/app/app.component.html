@@ -1,23 +1,35 @@
-<mat-toolbar color="#E6DFF4">
-  <!-- Left side: Menu button -->
-  <div id="options">
-    <a href="/home">Calendar </a>
-    <a href="/home">Set Alarm </a>
-    <a href="/home">Devices </a>
-    <a href="/home">Profile </a>
+<mat-toolbar>
+  <div class="row">
+    <div class="column">
+      <div class="nav-bar-options">
+        <a href="/home">Calendar </a>
+        <a href="/home">Set Alarm </a>
+        <a href="/home">Devices </a>
+        <a href="/home">Profile </a>
+      </div>    
+    </div>
+    <div class="column">
+      <div class="app-title-container">
+        <h1 class="app-title">Wake-Up App</h1>
+      </div>
+      
+    </div>
+    <div class="column">
+      <div class="nav-bar-buttons">
+        <button mat-flat-button class="qr-button" >
+          QR
+        </button>
+        <button mat-flat-button class="log-out-button">
+          Log Out
+        </button>
+      </div>
+    </div>
   </div>
 
   <!-- Centered title -->
-  <h1>Wake-Up App</h1>
+  
 
-  <!-- Right side: Phone and power buttons -->
-  <span class="example-spacer"></span>
-  <button mat-flat-button class="qr-button" >
-    QR
-  </button>
-  <button mat-flat-button class="log-out-button">
-    Log Out
-  </button>
+
 </mat-toolbar>
 
 <router-outlet />

@@ -1,3 +1,47 @@
+.mat-toolbar{
+    background-color: #E6DFF4;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.nav-bar-options {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-bar-options a {
+    margin: 10px 10px 0px 10px;
+    text-decoration: none;
+}
+
+.app-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-title {
+    font-size: 32px;
+    margin: 4px 4px 4px 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 .mat-mdc-unelevated-button.qr-button {
     background-color: #28A745;
     color: black;
@@ -9,3 +53,4 @@
     color: white;
     margin: 4px 4px 4px 4px;
 }
+
