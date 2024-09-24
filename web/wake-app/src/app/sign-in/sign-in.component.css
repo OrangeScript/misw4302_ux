@@ -1,0 +1,30 @@
+.row {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.login-form-container{
+    width: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-login-page {
+    width: 500px;
+    height: 500px;
+}
+
+
+.login-option-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-mdc-unelevated-button.login-button {
+    background-color: #0093AE;
+}

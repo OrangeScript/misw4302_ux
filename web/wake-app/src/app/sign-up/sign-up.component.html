@@ -1,1 +1,64 @@
-<p>sign-up works!</p>
+<div class="signup-form-container">
+    <div calss="name-form-field">
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Name</mat-label>
+              <input matInput placeholder="Placeholder">
+              <mat-icon matSuffix>cancel</mat-icon>
+            </mat-form-field>
+        </p>
+
+    </div>
+    
+    <br>
+
+    <div class="chase-date-form-field">
+        <mat-form-field>
+            <mat-label>Choose a date</mat-label>
+            <input matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+    </div>
+
+    <br>
+
+    <div class="email-form-field">
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="Placeholder">
+              <mat-icon matSuffix>cancel</mat-icon>
+            </mat-form-field>
+        </p>
+
+    </div>
+
+    <br>
+
+    <div class="password-form-field">
+        <p>
+            <mat-form-field appearance="fill">
+              <mat-label>Password</mat-label>
+              <input matInput placeholder="Placeholder">
+              <mat-icon matSuffix>cancel</mat-icon>
+            </mat-form-field>
+        </p>
+
+    </div>
+
+    <div class="button-sign-up">
+        <button mat-flat-button class="sign-up-button" >
+            Sign up
+        </button>
+    </div>
+    
+
+</div>
+<div class="image-sign-up-options">
+    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="google-logo">
+    <img src="https://cdn.iconscout.com/icon/free/png-256/free-apple-logo-icon-download-in-svg-png-gif-file-formats--70-flat-social-icons-color-pack-logos-432495.png?f=webp&w=256" alt="apple-logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Microsoft_Office_Outlook_%282013%E2%80%932019%29.svg/2048px-Microsoft_Office_Outlook_%282013%E2%80%932019%29.svg.png" alt="outlook-logo">
+    <img src="https://www.svgrepo.com/show/35004/yahoo.svg" alt="yahoo-logo">
+</div>
