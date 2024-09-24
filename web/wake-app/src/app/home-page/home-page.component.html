@@ -1,1 +1,11 @@
-<p>home-page works!</p>
+<body class="home-page-body">
+    <br>
+    <div class="calendar-container">
+        <mat-card  class="calendar-card">
+            <mat-calendar [(selected)]="selected"></mat-calendar>
+        </mat-card>
+    </div>
+    <p>Selected date: {{selected()}}</p>
+    
+    
+</body>

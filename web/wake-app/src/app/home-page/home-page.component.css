@@ -1,0 +1,19 @@
+.calendar-container {
+   margin-top: 40px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-bottom: 40px;
+}
+
+
+.calendar-card {
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+.mat-calendar-table {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}

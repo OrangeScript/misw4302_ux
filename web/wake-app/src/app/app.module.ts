@@ -10,6 +10,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +21,7 @@ import { AngularMaterialModule } from './shared/angular-material/angular-materia
     SignInComponent,
     SignUpComponent,
     HomePageComponent,
-    AngularMaterialModule
+    AngularMaterialModule,
   ],
   providers: [
     provideClientHydration(),
