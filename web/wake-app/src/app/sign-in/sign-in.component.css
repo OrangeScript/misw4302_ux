@@ -1,3 +1,7 @@
+.page-navebar {
+    display: none;
+}
+
 .row {
     width: 100%;
 }
@@ -7,24 +11,29 @@
     width: 50%;
 }
 
+.login-actions {
+    width: 100%;
+    text-align: center;
+}
+
 .login-form-container{
-    width: 500px;
-    display: block;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-top: 20%;
 }
 
 .qr-login-page {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
 }
 
 
 .login-option-container {
+    width: 100%;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .mat-mdc-unelevated-button.login-button {
     background-color: #0093AE;
+    color: white;
 }

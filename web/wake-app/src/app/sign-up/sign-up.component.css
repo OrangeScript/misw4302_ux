@@ -1,7 +1,27 @@
+.signup-form-container{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.name-form-field {
+    width: 100%;
+    margin: auto;
+}
+
+mat-form-field {
+    width: 500px;
+}
+
 .mat-mdc-unelevated-button.sign-up-button {
+    color: white;
     background-color: #0093AE;
 }
 
+.image-sign-up-options {
+    padding-top: 40px;
+    text-align: center;
+}
+ 
 img {
     padding-left: 12px;
     padding-right: 12px;

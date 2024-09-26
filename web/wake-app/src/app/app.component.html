@@ -1,5 +1,5 @@
 <body>
-<mat-toolbar>
+<mat-toolbar class="page-navbar">
   <div class="row">
     <div class="column">
       <div class="nav-bar-options">
@@ -20,7 +20,10 @@
         <button mat-flat-button class="qr-button" >
           QR
         </button>
-        <button mat-flat-button class="log-out-button">
+        <button
+          mat-flat-button class="log-out-button"
+          routerLink="/sign-in"  
+        >
           Log Out
         </button>
       </div>
