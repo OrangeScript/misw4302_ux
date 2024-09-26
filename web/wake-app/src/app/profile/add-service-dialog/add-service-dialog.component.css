@@ -1,0 +1,69 @@
+.custom-toolbar {
+    background-color: #E6DFF4;
+    /* Toolbar background color */
+    color: rgb(0, 0, 0);
+    /* Text color */
+    padding: 4px;
+    /* Padding around the toolbar */
+    height: 20px;
+}
+
+.toolbar-row {
+    display: flex;
+    /* Flexbox layout */
+    justify-content: space-between;
+    /* Space between items */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.toolbar-title {
+    flex: 1;
+    /* Allow title to take available space */
+    text-align: center;
+    /* Center the title text */
+}
+
+.close-button {
+    background: none;
+    /* No background */
+    border: none;
+    /* No border */
+    color: rgb(0, 0, 0);
+    /* Text color */
+    cursor: pointer;
+    /* Pointer cursor */
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    flex-wrap: wrap;
+    height: 100%;
+    /* Permite que los elementos se ajusten si hay más de uno */
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* Mantener el texto debajo del icono */
+    align-items: center;
+    /* Centrar contenido dentro de cada icono */
+    gap: 100px;
+    /* Espaciado entre los iconos */
+}
+
+.big-icon {
+    cursor: pointer;
+    transform: scale(3);
+    width: 48px;
+    height: 48px;
+}
+
+.icon-description {
+    color: black;
+    text-align: center;
+}

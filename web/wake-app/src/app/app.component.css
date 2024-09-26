@@ -50,11 +50,14 @@ body {
     background-color: #28A745;
     color: black;
     margin: 4px 4px 4px 4px;
+    border-radius: 100px;
 }
 
 .mat-mdc-unelevated-button.log-out-button {
     background-color: #DC3545;
     color: white;
     margin: 4px 4px 4px 4px;
+    border-radius: 100px;
+    width: 96px;
 }
 

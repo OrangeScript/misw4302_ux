@@ -1,0 +1,59 @@
+<div class="profile-container">
+  <div class="profile-photo">
+    <mat-card>
+      <mat-card-content>
+        <div class="photo-placeholder">
+          <!-- Placeholder para la imagen -->
+          <img mat-card-image src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="Profile Photo"/>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <form class="profile-form">
+    <mat-form-field appearance="fill">
+      <input matInput />
+      <mat-hint>Name</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <input matInput />
+      <mat-hint>Location</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-select>
+        <mat-option value="male">Male</mat-option>
+        <mat-option value="female">Female</mat-option>
+        <mat-option value="other">Other</mat-option>
+      </mat-select>
+      <mat-hint>Gender</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <input matInput [matDatepicker]="picker" />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+      <mat-hint>Birthday</mat-hint>
+    </mat-form-field>
+
+    <div class="services-section">
+      <div class="services-header">
+        <div class="services">
+          <div class="icon-wrapper">
+            <h3>Services</h3>
+          </div>
+          <div class="icon-wrapper">
+            <mat-icon class="big-icon">calendar_today</mat-icon>
+            <span class="icon-description">Google<br>Calendar</span>
+          </div>
+          <div class="icon-wrapper">
+            <button mat-icon-button (click)="openAddServiceDialog($event)">
+              <mat-icon class="big-icon">add</mat-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

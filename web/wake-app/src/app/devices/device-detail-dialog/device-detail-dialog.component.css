@@ -1,0 +1,79 @@
+.custom-toolbar {
+    background-color: #E6DFF4;
+    /* Toolbar background color */
+    color: rgb(0, 0, 0);
+    /* Text color */
+    padding: 4px;
+    /* Padding around the toolbar */
+    height: 20px;
+}
+
+.toolbar-row {
+    display: flex;
+    /* Flexbox layout */
+    justify-content: space-between;
+    /* Space between items */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.toolbar-title {
+    flex: 1;
+    /* Allow title to take available space */
+    text-align: center;
+    /* Center the title text */
+}
+
+.close-button {
+    background: none;
+    /* No background */
+    border: none;
+    /* No border */
+    color: rgb(0, 0, 0);
+    /* Text color */
+    cursor: pointer;
+    /* Pointer cursor */
+}
+
+.profile-photo {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 60px;
+}
+
+.photo-placeholder img {
+    margin-left: 16px;
+    width: 180px;
+    height: 120px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically in the center */
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    /* Stacks title and description vertically */
+}
+
+.profile-title {
+    text-align: left;
+    margin: 0;
+    /* Removes default margin */
+    font-size: 1.5em;
+    /* Adjusts title font size */
+    color: black;
+}
+
+.profile-description {
+    text-align: left;
+    margin-top: 20px;
+    /* Removes default margin */
+    font-size: 1em;
+    /* Adjusts description font size */
+    color: black;
+}

@@ -1,0 +1,154 @@
+.devices-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7%;
+}
+
+.device-list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.add-device {
+    display: flex;
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-device mat-icon {
+    transform: scale(6);
+}
+
+.old-devices-section {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1%;
+}
+
+.old-devices-section h2 {
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 35px;
+}
+
+.info-section {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.info-icons {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.info-images {
+    transform: scale(1.5);
+}
+
+.info-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.info-item {
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.add-device {
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #9797977c;
+    /* Change to your desired hover color */
+}
+
+.card-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 16px;
+}
+
+.text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.line1 {
+    font-weight: 500;
+}
+
+.logo img {
+    margin-left: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.old-devices-container {
+    width: 77%;
+    margin-bottom: 150px;
+}
+
+.bg-opacity-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.bg-opacity-15 {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.mat-divider {
+    margin-right: 7%;
+}
+
+.old-devices-title {
+    font-size: 37px;
+    font-weight: normal;
+}

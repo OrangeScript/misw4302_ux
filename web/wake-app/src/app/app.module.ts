@@ -9,12 +9,20 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
+import { ProfileComponent } from './profile/profile.component';
+import { DevicesComponent } from './devices/devices.component';
+import { AddServiceDialogComponent } from './profile/add-service-dialog/add-service-dialog.component';
+import { DeviceDetailDialogComponent } from './devices/device-detail-dialog/device-detail-dialog.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [					
+    AppComponent,
+    ProfileComponent,
+    DevicesComponent,
+    AddServiceDialogComponent,
+    DeviceDetailDialogComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -24,7 +32,6 @@ import { AngularMaterialModule } from './shared/angular-material/angular-materia
     AngularMaterialModule,
   ],
   providers: [
-    provideClientHydration(),
     provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]

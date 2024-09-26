@@ -1,0 +1,24 @@
+<div class="custom-toolbar">
+  <div class="toolbar-row">
+    <span class="toolbar-title">Add a Service</span>
+    <button class="close-button" (click)="onCancel()">
+      <mat-icon>cancel</mat-icon>
+    </button>
+  </div>
+</div>
+<div mat-dialog-content>
+  <div class="services">
+    <div class="icon-wrapper">
+      <img src="outlook-logo.png" alt="Outlook" class="big-icon" (click)="onCancel()"/>
+      <span class="icon-description">Outlook</span>
+    </div>
+    <div class="icon-wrapper">
+      <img src="google-logo.png" alt="Google Calendar" class="big-icon" (click)="onCancel()" />
+      <span class="icon-description">Google Calendar</span>
+    </div>
+    <div class="icon-wrapper">
+      <img src="yahoo-logo.svg" alt="Yahoo" class="big-icon" (click)="onCancel()"/>
+      <span class="icon-description">Yahoo</span>
+    </div>
+  </div>
+</div>
