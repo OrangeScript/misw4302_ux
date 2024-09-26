@@ -2,10 +2,68 @@
     <br>
     <div class="calendar-container">
         <mat-card  class="calendar-card">
-            <mat-calendar [(selected)]="selected"></mat-calendar>
+            <div class="calendar">
+                <div class="header_message">Select date</div>
+                <br>
+                <div class="header">Fri, Aug 2</div>
+                <mat-divider style="width: 100%;"></mat-divider>
+                <div class="select_month">
+                    <div class="month-selector-text">August 2023 <mat-icon class="drop-down-arrow">arrow_drop_down</mat-icon></div>
+                    <span class="month-selector-spam"></span>
+                    <div>
+                        <mat-icon class="select-month-button">navigate_before</mat-icon>
+                        <mat-icon class="select-month-button">navigate_next</mat-icon>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="date_header">S</div>
+                    <div class="date_header">M</div>
+                    <div class="date_header">T</div>
+                    <div class="date_header">W</div>
+                    <div class="date_header">T</div>
+                    <div class="date_header">F</div>
+                    <div class="date_header">S</div>
+                    <!-- Repeat for other days of the week -->
+                    <div class="date"></div>
+                    <div class="date"></div>
+                    <div class="date"></div>
+                    <div class="date"></div>
+                    <div class="date">1</div>
+                    <a><div class="date highlight">2<br>Alarm Memo</div></a>
+                    <div class="date">3</div>
+                    <div class="date">4</div>
+                    <div class="date">5</div>
+                    <div class="date">6</div>
+                    <div class="date">7</div>
+                    <div class="date">8</div>
+                    <div class="date">9</div>
+                    <div class="date">10</div>
+                    <div class="date">11</div>
+                    <div class="date">12</div>
+                    <div class="date">13</div>
+                    <div class="date">14</div>
+                    <div class="date">15</div>
+                    <div class="date">16</div>
+                    <div class="date">17</div>
+                    <div class="date">18</div>
+                    <div class="date">19</div>
+                    <div class="date">20</div>
+                    <div class="date">21</div>
+                    <div class="date">22</div>
+                    <div class="date">23</div>
+                    <div class="date">24</div>
+                    <div class="date">25</div>
+                    <div class="date">26</div>
+                    <div class="date">27</div>
+                    <div class="date">28</div>
+                    <div class="date">29</div>
+                    <div class="date">30</div>
+                    <div class="date">31</div>
+                    <!-- Repeat for other dates -->
+                </div>
+            </div>
         </mat-card>
     </div>
-    <p>Selected date: {{selected()}}</p>
     
     
 </body>
